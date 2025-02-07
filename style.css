@@ -1,0 +1,265 @@
+html {
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    width: 10px; 
+}
+
+::-webkit-scrollbar-track {
+    background: #021227; 
+    border-radius: 10px; 
+}
+
+::-webkit-scrollbar-thumb {
+    background: #ffee10; 
+    border-radius: 10px; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #888;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Navbar Styling */
+.header {
+    background-color: #ff0000;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.navbar a {
+    color: #000000;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    background-color: #ff0000;
+}
+
+.navbar .active {
+    background-color: #f44336;
+}
+.header {
+    background-color: #ffffff;
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.logo h1 {
+    font-size: 36px;
+    color: red;
+}
+
+.logo h1 span {
+    color: rgb(0, 0, 0);
+}
+
+/* Home Section */
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+.home-content {
+    max-width: 600px;
+}
+
+.home-content h3 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.home-content h1 {
+    font-size: 3.5rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.home-content p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+.home-sci a {
+    font-size: 2rem;
+    margin: 0 10px;
+    color: #333;
+    transition: 0.3s;
+}
+
+.home-sci a:hover {
+    color: #f44336;
+}
+
+.btn-box {
+    display: inline-block;
+    background-color: #f44336;
+    color: white;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border-radius: 25px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.btn-box:hover {
+    background-color: #333;
+}
+
+/* Responsive Image */
+.home img {
+    max-width: 100%;
+    height: 300px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.skills {
+    background-color: #ffffff;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.skills h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.skill-item {
+    background-color: #ec2020;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 45%;
+    min-width: 250px;
+}
+
+.skill-item h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.skill-item p {
+    font-size: 18px;
+}
+/* Projects Section */
+.projects {
+    background-color: #f4f4f4;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.projects h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.projects-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.project-item {
+    background-color: #fff;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 45%;
+    min-width: 250px;
+}
+
+.project-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.project-item h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.project-item p {
+    font-size: 18px;
+}
+.contact {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.contact h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.contact p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.contact strong {
+    font-weight: bold;
+}
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer p {
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+.footer a {
+    color: #f4f4f4;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
